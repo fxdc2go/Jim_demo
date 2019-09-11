@@ -342,6 +342,7 @@
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
 		<row><td>ISO19770_LocalTag</td><td>{285591A0-A434-4AF7-9028-F9969CCDA56F}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISO19770_SystemTag</td><td>{88380FF3-07B8-4255-B06A-67C2EC30B132}</td><td>CommonAppDataFolder</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT</td><td>{05869BDA-CB09-4E5E-8CD5-F4F4A34F78F4}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>JimFormFillerDemo.Primary_output</td><td>{A105AD00-4A86-49D9-802B-5AA7833747BE}</td><td>INSTALLDIR</td><td>2</td><td/><td>jimformfillerdemo.primary_ou</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>itextsharp.dll</td><td>{3E502FA4-13CD-410F-B1A8-1DB80066A0FF}</td><td>INSTALLDIR</td><td>2</td><td/><td>itextsharp.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
@@ -1864,6 +1865,7 @@
 	<table name="FeatureComponents">
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
 		<row><td>AlwaysInstall</td><td>JimFormFillerDemo.Primary_output</td></row>
 		<row><td>AlwaysInstall</td><td>itextsharp.dll</td></row>
 	</table>
@@ -1880,6 +1882,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
+		<row><td>_019_09_05_samplepdf.pdf</td><td>ISX_DEFAULTCOMPONENT</td><td>2019-0~1.PDF|2019-09-05-SamplePDF.pdf</td><td>0</td><td/><td/><td/><td>1</td><td>C:\temp\PDF\2019-09-05-SamplePDF.pdf</td><td>1</td><td/></row>
 		<row><td>itextsharp.dll</td><td>itextsharp.dll</td><td>ITEXTS~1.DLL|itextsharp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Admin\Documents\Visual Studio 2013\Projects\itextsharp.dll</td><td>1</td><td/></row>
 		<row><td>jimformfillerdemo.primary_ou</td><td>JimFormFillerDemo.Primary_output</td><td>JimFormFillerDemo.Primary output</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;JimFormFillerDemo&gt;|Built</td><td>3</td><td/></row>
 	</table>
@@ -2027,6 +2030,7 @@
 		<col def="S0">Miscellaneous</col>
 		<row><td>ISO19770_LocalTag</td><td/><td/><td>_6CBBB51E_2529_48C2_A8FE_191E29EEE90A_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISO19770_SystemTag</td><td/><td/><td>_3287DFAC_4E61_4EE0_AA46_41B12815EAE8_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_13A78F4B_996C_44E8_B794_483429DE8847_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>JimFormFillerDemo.Primary_output</td><td/><td/><td>_F9C83BA4_0E81_4CC7_A1E5_8A7842D28665_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>itextsharp.dll</td><td/><td/><td>_1555E4C7_E86A_4AB9_B2D6_FEBE360226BD_FILTER</td><td/><td/><td/><td/></row>
 	</table>
@@ -4531,7 +4535,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>NewShortcut1</td><td>StartupFolder</td><td>##ID_STRING3##</td><td>JimFormFillerDemo.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>NewShortcut1_8994808C1E9048F39A7E733042F44A0A.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>NewShortcut1</td><td>ProgramMenuFolder</td><td>##ID_STRING3##</td><td>JimFormFillerDemo.Primary_output</td><td>AlwaysInstall</td><td/><td/><td/><td>NewShortcut1_8994808C1E9048F39A7E733042F44A0A.exe</td><td>0</td><td>1</td><td/><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">
